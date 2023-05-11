@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<section>
+
+<div class="container">
+	<div class="row">
+	<div class="col-md-8 offset-md-2">
+
+	<div class="my-card text-center">
+		<h1 class="text-center">Register here!!</h1>
+		
+		
+		
+		<div class="firstName">
+			<label>Enter first Name:</label>
+		<input type="text">
+		</div>
+		
+		
+		<div class="lastName">
+			<label>Enter last Name:</label>
+		<input type="text">
+		</div>
+		
+		<div class="UserEmail">
+			<label>  Enter Email Id:</label>
+		<input type="email">
+		</div>
+		
+		
+		
+		<div class="UserId">
+			<label>Enter UserName:</label>
+		<input type="text">
+		</div>
+		
+		<div class="userAge">
+			<label>Enter UserAge:</label>
+		<input type="number">
+		</div>
+		
+		 <div>
+    	 
+    	 <label for="gender">Gender:</label>
+
+ 		<select name="gender" id="genders">
+ 		 <option value="male">Male</option>
+ 		 <option value="female">Female</option>
+ 		 <option value="others">Others</option>
+  
+		</select>
+    	 
+    	 </div>
+    	 
+    	 <div class="UserPass">
+			<label>Create UserPassword:</label>
+		<input type="password">
+		</div>
+		
+		 <div class="UserPass">
+			<label>Confirm UserPassword:</label>
+		<input type="password">
+		</div>
+		
+		
+		
+		<!-- term and condition aggrement -->
+    	 
+    	 <div class="form-group form-check">
+    	 
+    	 <input type="checkbox"
+    	 		name="aggrement"
+    	 		class="form-check-input"
+    	 		>
+    	 		
+    	 <label for="aggrement">Accept terms and conditions</label>
+    	 
+    	 </div>
+    	 
+    	 <div class="container text-center">
+    	 
+    	 <button type="submit" class="btn btn-primary text-white">Submit</button>
+    	 
+    	 <button type="reset" class="btn btn-warning">Reset</button>
+		</div>
+		
+	</div>
+	</div>
+	</div>	
+	</div>
+
+</section>
+
+</body>
+</html>
