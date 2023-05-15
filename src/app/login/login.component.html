@@ -1,0 +1,32 @@
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3" style="margin-top: 20px">
+                
+                <div class="text-center">
+                    <img style="border-radius: 320px 200px 20px 10px;" src="../../assets/insurance.jpg" alt="">
+                  </div>
+                  <mat-card>
+                   
+                    <h1 class="text-center">Login here....!</h1>
+               
+
+                    <form  class="my-box">
+                        <div class="form-group">
+                                <label for="" class="from-label">Enter User Id: </label>
+                                <input type="text" name="userId" [(ngModel)]="userId"  class="form-control">
+                        </div>
+                    
+                        <div class="form-group">
+                            <label for="" class="from-label">Enter User Password: </label>
+                            <input type="text" name="userPass" [(ngModel)]="userPass" class="form-control">
+                    </div><br>
+                    <button type="button" class="btn btn-primary" (click)="getUserData()">Login</button>
+                    </form>
+
+
+            </mat-card>
+            </div>
+        </div>
+    </div>
+</div>

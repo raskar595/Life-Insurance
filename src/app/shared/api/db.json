@@ -1,0 +1,120 @@
+{
+  "employee": [
+    {
+      "firstName": "Suraj",
+      "lastName": "Raskar",
+      "userEmail": "raskarsuraj@gmail.com",
+      "username": "suraj321",
+      "userAge": 22,
+      "userpwd": "4321",
+      "city": "Pune",
+      "gender": "M",
+      "id": 1
+    },
+    {
+      "firstName": "Mahesh",
+      "lastName": "Bhonde",
+      "userEmail": "bhonedmahesh2022@gmail.com",
+      "username": "mahesh2022",
+      "userAge": 22,
+      "userpwd": "54321",
+      "city": "pune",
+      "gender": "M",
+      "id": 5
+    },
+    {
+      "firstName": "Akshay",
+      "lastName": "Baravkar",
+      "userEmail": "akshaybankar@gmail.com",
+      "username": "akshay321",
+      "userAge": 24,
+      "userpwd": "54321",
+      "city": "Kedgaon",
+      "gender": "M",
+      "id": 6
+    },
+    {
+      "firstName": "Om",
+      "lastName": "Baravkar",
+      "userEmail": "ombaravkar@gmail.com",
+      "username": "om321",
+      "userAge": 14,
+      "userpwd": "43221",
+      "city": "Kedg",
+      "gender": "M",
+      "id": 7
+    },
+    {
+      "firstName": "Rutuja",
+      "lastName": "Khairnar",
+      "userEmail": "rutujakharinar@gmail.com",
+      "username": "rutuja321",
+      "userAge": 21,
+      "userpwd": "54332",
+      "city": "Nashik",
+      "gender": "F",
+      "id": 8
+    },
+    {
+      "firstName": "Neha",
+      "lastName": "Lonkar",
+      "userEmail": "nehalonkar@gmail.com",
+      "username": "neha321",
+      "userAge": 18,
+      "userpwd": "4321",
+      "city": "Kedgaon",
+      "gender": "F",
+      "id": 9
+    },
+    {
+      "firstName": "Pooja",
+      "lastName": "Hegade",
+      "userEmail": "poojahegade@gmail.com",
+      "username": "pooja321",
+      "userAge": 28,
+      "userpwd": "9999",
+      "city": "pune",
+      "gender": "F",
+      "id": 10
+    },
+    {
+      "firstName": "Sheetel",
+      "lastName": "kamble",
+      "userEmail": "sheetalkamble@gmail.com",
+      "username": "sheetal321",
+      "userAge": 23,
+      "userpwd": "443322",
+      "city": "Pune",
+      "gender": "F",
+      "id": 13
+    },
+    {
+      "firstName": "Suvarna",
+      "lastName": "Lonkar",
+      "userEmail": "suvarnalonkar@gmail.com",
+      "username": "suvarna321",
+      "userAge": 42,
+      "userpwd": "55555",
+      "city": "chackan",
+      "gender": "F",
+      "id": 14
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "uid": "admin",
+      "upass": "admin@123"
+    },
+    {
+      "id": 2,
+      "uid": "hero",
+      "upass": "hero@123"
+    },
+    {
+      "id": 3,
+      "uid": "king",
+      "upass": "king@123"
+    }
+  ]
+}

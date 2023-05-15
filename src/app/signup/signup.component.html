@@ -1,0 +1,141 @@
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row" style="margin-top: 10px">
+            <div class="col-md-6 offset-md-3">
+              <div class="text-center">
+                <img style="border-radius: 320px 200px 20px 10px;" src="../../assets/insurance.jpg" alt="">
+              </div>
+              <!-- {{user |json}} -->
+              <mat-card>
+                <h1 class="text-center">Register here..!</h1>
+                
+                <form #frmData="ngForm" (ngSubmit)="formSubmit()" (ngSubmit)="getData(frmData.value)">
+                 
+                <!-- firstName -->
+
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>firstName</mat-label>
+                        <input
+                        required=""
+                        ngModel=""
+                        [(ngModel)]="user.firstName"
+                        name="firstName"
+                         matInput placeholder="enter firstName">
+                      </mat-form-field>
+
+                       <!-- lastName -->
+                
+                    <mat-form-field class="full-width" appearance="outline">
+                      <mat-label>lastName</mat-label>
+                      <input
+                      required=""
+                      ngModel=""
+                      [(ngModel)]="user.lastName"
+                      name="lastName"
+                       matInput placeholder="enter lastName">
+                    </mat-form-field>
+                      
+                     <!-- Email -->
+                
+                     <mat-form-field class="full-width" appearance="outline">
+                      <mat-label>Email</mat-label>
+                      <input 
+                      required=""
+                      ngModel=""
+                      [(ngModel)]="user.userEmail"
+                      name="userEmail"
+                      type="email" matInput placeholder="enter email">
+                    </mat-form-field>
+
+                     <!-- userName -->
+                
+                     <mat-form-field class="full-width" appearance="outline">
+                      <mat-label>userName</mat-label>
+                      <input
+                      required=""
+                      ngModel=""
+                      [(ngModel)]="user.username"
+                      name="username"
+                       matInput placeholder="enter userName">
+                    </mat-form-field>
+
+                    <!-- city -->
+                
+                    <mat-form-field class="full-width" appearance="outline">
+                      <mat-label>city</mat-label>
+                      <input
+                      required=""
+                      ngModel=""
+                      [(ngModel)]="user.city"
+                      name="city"
+                       matInput placeholder="enter your city">
+                    </mat-form-field>
+
+                     <!-- useAge -->
+                
+                     <mat-form-field class="full-width" appearance="outline">
+                      <mat-label>useAge</mat-label>
+                      <input 
+                      required=""
+                      ngModel=""
+                      [(ngModel)]="user.userAge"
+                      name="userAge"
+                      type="number" matInput placeholder="enter userAge">
+                    </mat-form-field>
+
+                    <!-- Gender -->
+
+                    <!-- <mat-form-field class="full-width" appearance="outline">
+                      <mat-label>Gender</mat-label>
+                      <input
+                      required=""
+                      [(ngModel)]="user.gender"
+                      name="gender"
+                       matInput placeholder="enter gender">
+                    </mat-form-field> -->
+
+
+                    <mat-form-field appearance="fill">
+                      
+                      <select ngModel="" [(ngModel)]="user.gender" name="gender" placeholder="Select Gender" matNativeControl required>
+                      
+                        <option name="gender">M</option>
+                        <option name="gender">F</option>
+                        </select>
+                    </mat-form-field>
+
+
+                     <!-- userpwd -->
+                
+                     <mat-form-field class="full-width" appearance="outline">
+                      <mat-label>UserPassword</mat-label>
+                      <input 
+                      required=""
+                      type="password"
+                      ngModel=""
+                      [(ngModel)]="user.userpwd"
+                      name="userpwd"
+                       matInput placeholder="enter userpwd">
+                    </mat-form-field>
+
+                    <!-- button -->
+               
+                    <div class="container text-center">
+                      <button type="submit" class="btn btn-sm btn-primary">Submit</button>&nbsp;&nbsp;
+                      <button type="button" class="btn btn-sm btn-warning" (click)="resetForm()">Reset</button>
+
+
+                    </div>
+                 
+                    
+                </form>
+              </mat-card>
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+
+
+
