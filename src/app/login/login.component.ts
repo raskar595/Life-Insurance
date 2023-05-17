@@ -41,24 +41,24 @@ export class LoginComponent {
 
     // EmployeeLogin
 
-    console.log(this.userId,this.userPass);
-    this._globalSer.getRecord("employee").subscribe((res)=>{
-      this.userArray=res;
-      console.log(this.userArray);
+    // console.log(this.userId,this.userPass);
+    // this._globalSer.getRecord("employee").subscribe((res)=>{
+    //   this.userArray=res;
+    //   console.log(this.userArray);
 
-      const data=this.userArray.filter((items:any)=>{
-        return items.username===this.userId && items.userpwd===this.userPass})
-        if(data.length >0){
-          this._globalSer.signIn(this.userId);
-          this._router.navigate(['/dashboard']);
-        }
-        else{
-          window.alert("invalid credential..!");
-          this.userId="";
-          this.userPass="";
+    //   const data=this.userArray.filter((items:any)=>{
+    //     return items.username===this.userId && items.userpwd===this.userPass})
+    //     if(data.length >0){
+    //       this._globalSer.signIn(this.userId);
+    //       this._router.navigate(['/dashboard']);
+    //     }
+    //     else{
+    //       window.alert("invalid credential..!");
+    //       this.userId="";
+    //       this.userPass="";
 
-        }
-    })
+    //     }
+    // })
 
 
   }

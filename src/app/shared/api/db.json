@@ -1,17 +1,6 @@
 {
   "employee": [
     {
-      "firstName": "Suraj",
-      "lastName": "Raskar",
-      "userEmail": "raskarsuraj@gmail.com",
-      "username": "suraj321",
-      "userAge": 22,
-      "userpwd": "4321",
-      "city": "Pune",
-      "gender": "M",
-      "id": 1
-    },
-    {
       "firstName": "Mahesh",
       "lastName": "Bhonde",
       "userEmail": "bhonedmahesh2022@gmail.com",
@@ -78,25 +67,14 @@
       "id": 10
     },
     {
-      "firstName": "Sheetel",
-      "lastName": "kamble",
-      "userEmail": "sheetalkamble@gmail.com",
-      "username": "sheetal321",
-      "userAge": 23,
-      "userpwd": "443322",
-      "city": "Pune",
-      "gender": "F",
-      "id": 13
-    },
-    {
-      "firstName": "Suvarna",
-      "lastName": "Lonkar",
-      "userEmail": "suvarnalonkar@gmail.com",
-      "username": "suvarna321",
-      "userAge": 42,
-      "userpwd": "55555",
-      "city": "chackan",
-      "gender": "F",
+      "firstName": "Mohit",
+      "lastName": "Bidgar",
+      "userEmail": "mohitbidgar201@gmail.com",
+      "username": "mohit123",
+      "userAge": 21,
+      "userpwd": "Mohit123",
+      "city": "Dhule",
+      "gender": "M",
       "id": 14
     }
   ],
