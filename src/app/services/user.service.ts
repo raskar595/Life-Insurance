@@ -34,6 +34,11 @@ export class UserService {
   Url:string="http://localhost:3000";
 
 
+  getUserByUsername(username: string) {
+    return this._http.get<any>(`${this.Url}/employee?username=${username}`);
+  }
+
+
   // Employee Profile
 
   getUserById(id: number): Observable<UserComponent> {

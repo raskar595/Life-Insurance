@@ -9,6 +9,8 @@ import { EcontactComponent } from './econtact/econtact.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AuthGuard } from './shared/Guard/auth.guard';
 import { UserComponent } from './user/user.component';
+import { UserloginComponent } from './userlogin/userlogin.component';
+import { PolicyComponent } from './policy/policy.component';
 
 const routes: Routes = [
   
@@ -19,6 +21,21 @@ const routes: Routes = [
   {path:"about",component:AboutComponent},
   {path:"econtact",component:EcontactComponent},
   {path:"user",component:UserComponent},
+  {path:"policy",component:PolicyComponent},
+  { path: '', redirectTo: '/user', pathMatch: 'full' },
+  {path:"userlogin",component:UserloginComponent},
+  // {path:"user",component:UserComponent,children:[
+  //   {path:"policy",component:PolicyComponent}
+  // ]},
+
+  
+
+
+  // {path:"angform",canActivate:[AuthGuard],component:AngformComponent,children:[
+  //   {path:"",component:UtdfComponent},
+  //   {path:"utdf",component:UtdfComponent},
+  //   {path:"rtf",component:RtfComponent}
+  // ]},
   
 // {path:"crud",canActivate:[AuthGuard],loadChildren:()=>import('./crud/crud.module').then((m)=>m.CrudModule)},
  //{path:"dashboard",component:DashboardComponent},

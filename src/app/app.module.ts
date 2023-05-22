@@ -23,6 +23,8 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { AgentComponent } from './agent/agent.component';
 import { UserComponent } from './user/user.component';
+import { UserloginComponent } from './userlogin/userlogin.component';
+import { PolicyComponent } from './policy/policy.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { UserComponent } from './user/user.component';
     EcontactComponent,
     DashboardComponent,
     AgentComponent,
-    UserComponent
+    UserComponent,
+    UserloginComponent,
+    PolicyComponent
   ],
   imports: [
     BrowserModule,

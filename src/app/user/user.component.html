@@ -1,12 +1,110 @@
-<table>
-    <thead>
-        <th>Id</th><th>FirstName</th><th>LastName</th><th>UserEmail</th><th>UserName</th>
-        <th>UserAge</th><th>Gender</th><th>UserPassword</th><th>City</th>
-    </thead>
+<div class="container">
+    <div class="main-body">
+        <div class="row">
+          
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <div class="col-sm-14">
+                <button type="button" style="float:right" class="btn btn-danger btn-sm" (click)="logout()">
+                    <i class="fa fa-sign-out" aria-hidden="true"></i>Logout</button>
+            </div>
 
-    <tbody>
-        <h1>{{ userAge.firstname }}</h1>
-<p>Email: {{ userAge.lastname }}</p>
-<p>Address: {{ userAge.userEmail }}</p>
-    </tbody>
-</table>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex flex-column align-items-center text-center">
+                            <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Admin" class="rounded-circle p-1 bg-primary" width="110">
+                            <div class="mt-3">
+                                <h4>Suraj Raskar</h4>
+                                <p class="text-secondary mb-1">Student</p>
+                                <p class="text-muted font-size-sm">Kedgaon,Daund</p>
+                                
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                       
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row mb-3">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">First Name</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary">
+                                <input type="text" class="form-control" value="Suraj">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">Last Name</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary">
+                                <input type="text" class="form-control" value="Raskar">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">Email</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary">
+                                <input type="text" class="form-control" value="raskarsuraj984@gmail.com">
+                            </div>
+                        </div>
+
+
+                        <div class="row mb-3">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">User Name</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary">
+                                <input type="text" class="form-control" value="raskar595">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">User Age</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary">
+                                <input type="text" class="form-control" value="23">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">Password</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary">
+                                <input type="password" class="form-control" value="3804539">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">City</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary">
+                                <input type="text" class="form-control" value="Kedgaon">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3"></div>
+                            <div class="col-sm-9 text-secondary">
+                                <input type="button" class="btn btn-primary px-4" value="Save Changes">&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a routerLink="/policy" class="btn btn-warning px-4"><i class="fa fa-address-card-o" aria-hidden="true"> Add Policy</i></a>
+                                <!-- <input type="button" class="btn btn-primary px-4" routerLink="policy" value="Policy"> -->
+                                <!-- <button type="button" class="btn btn-primary nav" routerLink="policy">Policy</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+

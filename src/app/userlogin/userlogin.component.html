@@ -8,18 +8,18 @@
                   </div>
                   <mat-card>
                    
-                    <h1 class="text-center">Admin Login....!</h1>
+                    <h1 class="text-center">Login here....!</h1>
                
 
                     <form  class="my-box">
                         <div class="form-group">
                                 <label for="" class="from-label">Enter User Id: </label>
-                                <input type="text" name="userId" [(ngModel)]="userId"  class="form-control">
+                                <input type="text" name="userId" [(ngModel)]="username"  class="form-control">
                         </div>
                     
                         <div class="form-group">
                             <label for="" class="from-label">Enter User Password: </label>
-                            <input type="text" name="userPass" [(ngModel)]="userPass" class="form-control">
+                            <input type="text" name="userPass" [(ngModel)]="userpwd" class="form-control">
                     </div><br>
                     <button type="button" class="btn btn-primary" (click)="getUserData()">Login</button>
                     </form>

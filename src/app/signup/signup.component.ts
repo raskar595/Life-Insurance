@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { UserService } from '../services/user.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-signup',
@@ -7,7 +8,7 @@ import { UserService } from '../services/user.service';
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent {
-  constructor(private userService:UserService){}
+  constructor(private userService:UserService,private router:Router){}
 
   public user={
     firstName:'',
@@ -44,7 +45,7 @@ export class SignupComponent {
     }
     this.userService.addRecord("employee",empObj).subscribe(()=>{
       window.alert("Record Added Successfully");
-      
+      this.router.navigate(['/userlogin']);
       
     })
   }
